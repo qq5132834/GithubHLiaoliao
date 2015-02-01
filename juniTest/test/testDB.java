@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 import org.junit.Test;
 
-import com.hl.databaseJDBC.JDBCConnectMySQL;
+import com.hl.database.JDBCConnectMySQL;
 
 /**
  * 测试jdbc数据库连接方式
