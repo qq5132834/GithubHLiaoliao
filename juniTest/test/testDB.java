@@ -8,7 +8,9 @@ import org.junit.Test;
 
 import com.hl.databaseJDBC.JDBCConnectMySQL;
 
-
+/**
+ * 测试jdbc数据库连接方式
+ * */
 public class testDB {
 	
 	@Test
