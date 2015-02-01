@@ -6,13 +6,15 @@
 <link rel="stylesheet" type="text/css" href="ext4/resources/css/ext-all.css">
 <script type="text/javascript" src="ext4/ext-all.js"></script>
 <script type="text/javascript" src="ext4/locale/ext-lang-zh_CN.js"></script>
-</head>
-<body>
-
-</body>
- 
-</html>
 <script type="text/javascript">
+
+Ext.onReady(function(){
+ 
+alert("huanglio");
+
+
+
+
 Ext.define('User', {
     extend: 'Ext.data.Model',
     fields: [ 'name', 'email', 'phone' ]
@@ -53,4 +55,12 @@ Ext.create('Ext.grid.Panel', {
         }
     ]
 });
+
+});
 </script>
+</head>
+<body>
+
+</body>
+ 
+</html>
