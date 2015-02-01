@@ -60,7 +60,6 @@ Ext.create('Ext.grid.Panel', {
 </script>
 </head>
 <body>
-https://github.com/qq5132834/GithubHLiaoliao.git
 </body>
  
 </html>
