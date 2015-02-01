@@ -12,6 +12,8 @@ Ext.onReady(function(){
  
 alert("huanglio");
 
+ //化工料放到阿范德萨 
+
 
 Ext.define('User', {
     extend: 'Ext.data.Model',
