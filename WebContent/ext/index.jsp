@@ -4,62 +4,33 @@
 <head>
 <title>http://localhost:8080/GitHubLiaoliao/index.jsp</title>
 <link rel="stylesheet" type="text/css" href="ext4/resources/css/ext-all.css">
+<script type="text/javascript" src="ext4/bootstrap.js"></script>
 <script type="text/javascript" src="ext4/ext-all.js"></script>
 <script type="text/javascript" src="ext4/locale/ext-lang-zh_CN.js"></script>
 <script type="text/javascript">
 
 Ext.onReady(function(){
  
-alert("huanglio");
-
- //化工料放到阿范德萨 
-
-
-Ext.define('User', {
-    extend: 'Ext.data.Model',
-    fields: [ 'name', 'email', 'phone' ]
-});
-var userStore = Ext.create('Ext.data.Store', {
-    model: 'User',
-    data: [
-        { name: 'Lisa', email: 'lisa@simpsons.com', phone: '555-111-1224' },
-        { name: 'Bart', email: 'bart@simpsons.com', phone: '555-222-1234' },
-        { name: 'Homer', email: 'home@simpsons.com', phone: '555-222-1244' },
-        { name: 'Marge', email: 'marge@simpsons.com', phone: '555-222-1254' }
-    ]
-});
-Ext.create('Ext.grid.Panel', {
-    renderTo: Ext.getBody(),
-    store: userStore,
-    width: 400,
-    height: 200,
-    title: 'Application Users',
-    columns: [
-        {
-            text: 'Name',
-            width: 100,
-            sortable: false,
-            hideable: false,
-            dataIndex: 'name'
-        },
-        {
-            text: 'Email Address',
-            width: 150,
-            dataIndex: 'email',
-            hidden: true
-        },
-        {
-            text: 'Phone Number',
-            flex: 1,
-            dataIndex: 'phone'
-        }
-    ]
+	//
+	Ext.MessageBox.alert("ExtJS", "Hello ExtJS");
+	//var id = Ext.getCmp("nameff").getValue();
+	//console.info(id);
+	//alert("huanglio");
 });
 
-});
+function clickooo(thisObj){
+	alert("9");
+	var id = Ext.getCmp("nameff").getValue();
+	console.info(id);
+	alert("3");
+}
+
 </script>
 </head>
 <body>
+<input type="text" id="nameff" class="type" name="name" value="黄聊" /> 
+<input type="text" id="age"  class="type" name="age" />
+<input type="text" id="sex"  class="type" name="sex" />
+<input type="button" value="button" onclick="clickooo(this)"/>
 </body>
- 
 </html>
