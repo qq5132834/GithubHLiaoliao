@@ -19,7 +19,7 @@ import com.hl.database.JdbcTemplateConnectMySQL;
  * */
 public class testDB {
 	
-	@Test
+	//@Test
 	public void jdbcTemplate(){
 		
 		JdbcTemplate jdbcTemp = JdbcTemplateConnectMySQL.getJdbcTemplate();
@@ -37,7 +37,7 @@ public class testDB {
 	
 	
 	
-	//@Test
+	@Test
 	public void tst() throws SQLException{
 		Connection conn = JDBCConnectMySQL.getConnection();
 		Statement stmt = conn.createStatement();
