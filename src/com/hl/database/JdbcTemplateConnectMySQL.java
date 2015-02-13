@@ -16,4 +16,13 @@ public class JdbcTemplateConnectMySQL {
 		JdbcTemplate jdbcTemp = (JdbcTemplate) ctx.getBean("jdbcTemplate");
 		return jdbcTemp;
 	} 
+	
+	/**
+	 * jsp web use the method
+	 * */
+	public static JdbcTemplate getJdbcTemplateWeb(){
+		ApplicationContext  ctx = new ClassPathXmlApplicationContext("com/hl/resources/applicationContext-jdbcTemplate.xml");
+		JdbcTemplate jdbcTemp = (JdbcTemplate) ctx.getBean("jdbcTemplate");
+		return jdbcTemp;
+	}
 }
