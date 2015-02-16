@@ -12,7 +12,7 @@ public class JdbcTemplateConnectMySQL {
 	 * 3: (极少用)XmlWebApplicationContext：从Web系统中的XML文件来载入Bean定义的信息
 	 * */
 	public static JdbcTemplate getJdbcTemplate(){
-		ApplicationContext  ctx = new ClassPathXmlApplicationContext("com/hl/resources/applicationContext-jdbcTemplate.xml");
+		ApplicationContext  ctx = new ClassPathXmlApplicationContext("  ");
 		JdbcTemplate jdbcTemp = (JdbcTemplate) ctx.getBean("jdbcTemplate");
 		return jdbcTemp;
 	} 
