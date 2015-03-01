@@ -1,6 +1,11 @@
+//创建一个express应用程序 ，express需要自行安装
 var express = require('express');
 var app = express();
-var server = require('http').createServer(app);
+
+//创建一个http服务器（ http 模块是nodejs自带的）
+var server = require('http').createServer(app);	
+
+
 var SkyRTC = require('skyrtc').listen(server);
 var path = require("path");
 
