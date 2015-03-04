@@ -6,25 +6,10 @@
 <link rel="stylesheet" type="text/css" href="ext4/resources/css/ext-all.css">
 <script type="text/javascript" src="ext4/bootstrap.js"></script>
 <script type="text/javascript" src="ext4/locale/ext-lang-zh_CN.js"></script>
-<script type="text/javascript">
 
-Ext.onReady(function(){
+<!-- <script type="text/javascript" src="ExtStudy/index.js"></script> -->
+<script type="text/javascript" src="ExtStudy/createObject.js"></script>
  
-	//
-	Ext.MessageBox.alert("ExtJS", "Hello ExtJS");
-	//var id = Ext.getCmp("nameff").getValue();
-	//console.info(id);
-	//alert("huanglio");
-});
-
-function clickooo(thisObj){
-	alert("9");
-	var id = Ext.getCmp("nameff").getValue();
-	console.info(id);
-	alert("3");
-}
-
-</script>
 </head>
 <body>
 <input type="text" id="nameff" class="type" name="name" value="黄聊" /> 
