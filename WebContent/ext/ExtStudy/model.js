@@ -45,7 +45,8 @@ Ext.onReady(function(){
 		}
 	});
 	
-	var p = Ext.ModelManager.getModel('User');
+	var p = Ext.ModelManager.getModel('User'); 
+	//var p = Ext.create('User',{}); 这里不能再用create方式创建对象
 	p.load(1, {
 	    scope: this,
 	    failure: function(record, operation) {
