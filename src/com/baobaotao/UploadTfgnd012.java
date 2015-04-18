@@ -114,8 +114,7 @@ public class UploadTfgnd012 extends HttpServlet {
 						out.println("</script>");
 					} else {
 						pos = byteIndexOf(b, temp, 0);   
-						b = subBytes(b, pos + temp.getBytes().length + 2,
-								b.length);
+						b = subBytes(b, pos + temp.getBytes().length + 2,b.length);
 						s = reqbuf.readLine();
 						filename = "b180121" + filename;
 						File f = new File("d:\\" + filename);
