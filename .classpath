@@ -11,25 +11,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-aop-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-aspects-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-beans-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-context-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-context-support-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-core-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-instrument-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-instrument-tomcat-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-jdbc-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-jms-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-messaging-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-orm-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-oxm-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-test-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-tx-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-web-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-webmvc-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-webmvc-portlet-4.2.0.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-websocket-4.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-aop-4.0.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/spring-aspects-4.0.0.RELEASE.jar"/>

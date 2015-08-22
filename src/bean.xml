@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-	<bean id="CHINESE" class="com.hl.demo.Chinese"></bean>	
-	<bean id="AMERICAN" class="com.hl.demo.American"></bean>
+
+	<bean id="PERSON" class = "com.hl.demo.Person">
+		<property name="name" value="王辽"></property>
+		<property name="sex" value="男"></property> 
+		<property name="age" value="28"></property>
+		<property name="id" value="4309098767898765435X"></property>
+		<property name="address">
+			<list>
+				<value>深圳</value>
+				<value>珠海</value>
+			</list>
+		</property>
+		<property name="telphone">
+			<list>
+				<value>15898430298</value>
+				<value>15888888888</value>
+			</list>
+		</property>
+		<property name="sets">  
+            <set>  
+                <value>第一个set</value>  
+                <value>第二个set</value>  
+                <value>第三个set</value>  
+            </set>  
+        </property>
+        <property name="properties">  
+            <props>  
+                <prop key="key1">value1</prop>  
+                <prop key="key2">value2</prop>  
+                <prop key="key3">value3</prop>  
+            </props>  
+        </property>  
+        <property name="maps">  
+            <map>  
+                <entry key="key1" value="value1"></entry>  
+                <entry key="key2" value="value2"></entry>  
+                <entry key="key3" value="value3"></entry>  
+            </map>  
+        </property>  
+	</bean>
+	
+
+	
+	<bean id="constructor" class="com.hl.demo.Constructor">
+		<constructor-arg value="字符串" />
+		<constructor-arg value="-100" />
+		<constructor-arg>
+			<list>
+				<value>深圳...</value>
+				<value>珠海...</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg>
+			<set>  
+                <value>第一个set</value>  
+                <value>第二个set</value>  
+                <value>第三个set</value>  
+            </set> 
+		</constructor-arg>
+		<constructor-arg>
+			<props>  
+                <prop key="key1">value1</prop>  
+                <prop key="key2">value2</prop>  
+                <prop key="key3">value3</prop>    
+            </props>   
+		</constructor-arg>
+		<constructor-arg>
+			<map>  
+	            <entry key="key1" value="value1"></entry>  
+	            <entry key="key2" value="value2"></entry>  
+	            <entry key="key3" value="value3"></entry>  
+        	</map>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="CHINESE" class="com.hl.demo.Chinese">
+		<property name="personBseInfo">
+			<ref bean="PERSON"/>
+		</property>
+		<property name="constructor">
+			<ref bean="constructor"/>
+		</property>
+	</bean>	
+	
 </beans>
