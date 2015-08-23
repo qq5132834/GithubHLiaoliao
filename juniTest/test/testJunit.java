@@ -11,20 +11,8 @@ import com.hl.demo.Chinese;
 
 public class testJunit {
 	
-	@Autowired
-	private Chinese CHINESE;
-	
+ 
 	@Test
-	public void aa(){
-		
-		if(CHINESE!=null){
-			CHINESE.eat();
-		}else{
-			System.out.println("CHINESE == null...");
-		}
-	}
-	
-	//@Test
 	public void ss() throws IOException{
 		
 		Properties prop = new Properties();
